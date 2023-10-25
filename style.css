@@ -149,6 +149,10 @@ video {
     color: white;
 }
 
+#mission h1{
+    font-size: 70px;
+}
+
 #mission > p {
     font-size: 30px;
     color: grey;
@@ -171,4 +175,34 @@ i {
     color: white;
     font-size: 30px;
     margin: 10px 15px;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 80px;
+        align-items: center;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #click{
+        transform: scale(0.80);
+    }
+    #logo{
+        transform: scale(0.60);
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+    nav li{
+        align-items: end;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    #mission h1{
+        font-size: 20px;
+    }
+    #mission p{
+        font-size: 15px;
+    }
+
 }
